@@ -1,0 +1,52 @@
+.cont1{
+    padding: 38px 45px;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.cont1 h2{
+    font-size: 58px;
+    font-family: Mulish;
+    font-weight: 500;
+    color: rgba(35, 34, 34, 0.865);
+}
+
+.cont2 h1{
+    font-size: 30px;
+    font-family: Helvetica;
+    color:lavender;
+    letter-spacing: 2px;
+    margin-top: 4px;
+
+}
+
+.cont2 input{
+    padding: 14px 30px;
+    
+}
+.cont2{
+    margin-top: 8px;
+    padding: 38px 195px;
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 14px;
+    
+    gap: 7px;
+    
+}
+
+.cont2 button{
+    padding: 24px 24px;
+    background-color: rgba(18, 17, 17, 0.925);
+    color: aliceblue;
+    border: 8px;
+    border-radius: 8px;
+    font-family: gilroy;
+    font-weight: 500;
+    letter-spacing: 2px;
+}

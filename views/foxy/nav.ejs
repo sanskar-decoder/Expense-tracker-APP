@@ -1,0 +1,73 @@
+<style>
+    nav{
+        height: 100px;
+        width: 100%;
+        display: flex;
+
+    }
+    .b1{
+        height: 100%;
+        width: 45%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+
+    .b1 img{
+        height: 50%;
+        width: 45%;
+        margin-left: 10px;
+        
+    }
+    .b2{
+        height: 100%;
+        width: 55%;
+        /* background-color: rgba(32, 178, 171, 0.751); */
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 45px;
+    }
+    .b2 h2{
+        margin-right: 55px;
+        font-size: 28px;
+        font-family:helvetica;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.735);
+    }
+    .b2 a{
+        text-decoration: none;
+    }
+/* ------------------------- */
+
+
+    
+</style>
+
+<nav>
+    <%if(!admin){%>
+    <div class="b1">
+     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnd8p4j352qScLY9FvqUBukSoNBl__NY2wgm6ntwPUT-suj59tNtTqAen_drB1QRvkew&usqp=CAU" alt="">
+    </div>
+     <div class="b2">
+        <a href="/"><h2>Home</h2></a>
+        <a href="/signup"><h2>SignUp</h2></a>
+        <a href="/login"><h2>LogIn</h2></a>
+     </div>
+
+    <%}else{%>
+
+    
+        <div class="b1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnd8p4j352qScLY9FvqUBukSoNBl__NY2wgm6ntwPUT-suj59tNtTqAen_drB1QRvkew&usqp=CAU" alt="">
+           </div>
+            <div class="b2">
+               <a href="/expense"><h2>Expenses</h2></a>
+               <a href="/add"><h2>Add expenses</h2></a>
+               <a href="/profile"><h2>Profile</h2></a>
+               <a href="/signout"><h2>Signout</h2></a>
+            </div>
+       
+    
+    <%}%>
+</nav>

@@ -1,0 +1,16 @@
+<%-include('foxy/header.ejs')%>
+
+<%-include('foxy/nav.ejs')%>
+
+<div class="co1">
+
+    <h1>Forget Password</h1>
+
+<form action="/send-mail" method="POST">
+    <input type="email" placeholder="email" name="email" />
+    <button>Send Mail</button>
+    <br />
+</form>
+</div>
+
+<%-include('foxy/footer.ejs')%>

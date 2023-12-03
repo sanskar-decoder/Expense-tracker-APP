@@ -1,0 +1,20 @@
+.im{
+    height: 305px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: lawngreen;
+}
+
+.im img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    font-size: 28px;
+    font-family: Gilroy;
+    color: darkblue;
+    word-spacing: 2px;
+    
+}

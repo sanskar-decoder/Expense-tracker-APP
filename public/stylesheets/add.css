@@ -1,0 +1,44 @@
+.con1{
+    margin-top: 28px;
+    padding: 70px 98px;
+   
+}
+.con1 h1{
+    font-family: Montserrat;
+    font-size: 42px;
+    font-weight: 700;
+    color: rgb(15, 15, 15);
+    transform: translateY(-25px);
+}
+.con1 h2{
+    padding-top: 25px;
+    
+    font-size: 32px;
+    font-family: gilroy ;
+    font-weight: 500;
+    color: gray;
+}
+
+.con1 input {
+    padding: 24px 20px;
+    width: 225px;
+    margin-top: 14px;
+}
+
+.con2 select{
+    padding: 24px 20px;
+    width: 225px;
+    margin-top: 14px;
+}
+
+.con1 button{
+    padding: 15px 24px;
+    background-color:darkgreen;
+    color: aliceblue;
+    border: 8px;
+    border-radius: 8px;
+    font-family: gilroy;
+    font-weight: 500;
+    letter-spacing: 2px;
+    
+}
